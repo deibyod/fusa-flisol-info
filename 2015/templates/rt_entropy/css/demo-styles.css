@@ -1,0 +1,98 @@
+/**
+ * @package   Entropy Template - RocketTheme
+ * @version   1.9 April 14, 2014
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2014 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+
+/* Frontpage Content */
+.rt-demo-header .headline {margin-top:0px;}
+.rt-demo-header .rt-demo-counts {overflow:hidden;padding-top:30px;}
+.rt-demo-header .rt-demo-count {width:105px;height:140px;float:left;}
+.rt-demo-header .rt-demo-count span {font-size:75px;line-height:80px;display:block;text-align:center;font-weight:normal;text-shadow: 2px 2px 0px rgba(0,0,0,0.3);}
+.rt-demo-header .rt-demo-count em {clear:left;font-size:16px;display:block;text-align:center;font-weight:bold;} 
+.rt-demo-header .rt-demo-button {padding-left:20px;margin-right:-30px;}
+.rt-demo-button > div {float:left;}
+.rt-demo-button > div:first-child {margin-right:15px;}
+.roktabs .flush-image {margin:-15px;border-top-left-radius:8px;border-top-right-radius:8px;}
+.rt-demo-avatar {float: left;width:170px;}
+.rt-demo-bio {margin-left:185px;}
+.rt-demo-speaker .image-rounded {border-radius:8px;}
+.rt-demo-speaker .readon {margin-top:10px !important;}
+.rt-demo-speaker .rt-block {margin:0 auto;padding:10px;text-align:center;}
+.rt-demo-speaker h4 {font-weight:normal;font-size: 16px;opacity:0.7;}
+.rt-demo-sponsors {width:451px;height:192px;}
+.rt-demo-sponsor-become {text-align:center;margin-top:40px;}
+.rt-demo-map {float:left;}
+.rt-demo-location {padding-top: 10px;margin-left:500px;}
+.rt-demo-title {font-size:40px;line-height:40px;margin-bottom:15px;}
+.rt-demo-address {font-size:18px;opacity:0.7;margin-bottom:5px;font-weight:bold;}
+.rt-demo-phone {font-size:18px;font-weight:bold;margin-bottom:25px;}
+.rt-demo-prices {float:left;width:453px;}
+.rt-demo-register {margin-left:500px;}
+.rt-demo-price {font-size:80px;line-height:80px;display:block;float:left;margin-right:40px;}
+.rt-demo-buttons {margin-top:35px;}
+.rt-demo-buttons > .readon {margin-top:15px !important;}
+li.item159 > a.item {display:none !important;}
+li.item159 .fusion-module {margin:-5px -15px -15px -5px;}
+.menu-preset {width:90px;float:left;margin: 0 7px 10px;text-align:center;font-weight:bold;}
+.menu-preset img {box-shadow: 3px 3px 6px rgba(0,0,0,0.2);}
+.rt-demo-disclaimer {opacity:0.7;font-size:90%;text-align:center;margin: 0 60px;}
+
+/* Custom Grid */
+.rt-demo-grid-2, .rt-demo-grid-3, .rt-demo-grid-4, .rt-demo-grid-5, .rt-demo-grid-6, .rt-demo-grid-7 {float: left;margin-left: 10px;margin-right: 10px;}
+.rt-grid-4 .rt-block .rt-demo-grid-2 {width: 120px;}
+.rt-grid-8 .rt-demo-grid-2 {width: 120px;}
+.rt-grid-9 .rt-demo-grid-2 {width: 140px;}
+.rt-grid-6 .rt-block .rt-demo-grid-3 {width: 200px;}
+.rt-grid-8 .rt-demo-grid-3 {width: 170px;}
+.rt-grid-9 .rt-demo-grid-3 {width: 200px;}
+.rt-grid-8 .rt-demo-grid-4 {width: 270px;}
+.rt-grid-9 .rt-demo-grid-4 {width: 310px;}
+.rt-demo-grid-alpha {margin-left: 0;}
+.rt-demo-grid-omega {margin-right: 0;margin-left: 0;}
+
+/* Tutorials */
+.mod-var-link {text-transform: uppercase;}
+.ext-list {line-height: 30px;margin-bottom: 5px;}
+
+/* Standard Inline Structural Adjustments */
+body .floatleft {float: left;margin-right: 15px;margin-left: 0;}
+body .floatright {float: right;margin-left: 15px;margin-right: 0;}
+body .nomarginbottom, body .nomarginbottom .rt-block, body ul.nomarginbottom {margin-bottom: 0;}
+body .nomargintop, body .nomargintop .rt-block, body ul.nomargintop {margin-top: 0;}
+body .nomarginbottom, body .nomarginbottom .rt-block, body ul.nomarginbottom {margin-bottom: 0;}
+body .nomarginleft, body .nomarginleft .rt-block, body ul.nomarginleft {margin-left: 0;}
+body .nomarginright, body .nomarginright .rt-block, body ul.nomarginright {margin-right: 0;}
+body .nopaddingleft {padding-left: 0 !important;}
+body .nopaddingright {padding-right: 0 !important;}
+body .nopaddingbottom {padding-bottom: 0 !important;}
+body .nopaddingtop {padding-top: 0 !important;}
+.floatnone {float: none !important;}
+.clearnone {clear: none !important;}
+.floatleftlast {float: left;margin-right: 0;}
+.floatrightlast {float: right;margin-left: 0;}
+body .smallmarginbottom {margin-bottom: 5px !important;}
+body .smallmargintop {margin-top: 5px !important;}
+body .medmarginbottom {margin-bottom: 10px !important;}
+body .medmargintop {margin-top: 10px !important;}
+body .smallmarginleft {margin-left: 5px !important;}
+body .smallmarginright {margin-right: 5px !important;}
+body .medmarginleft {margin-left: 10px !important;}
+body .medmarginright {margin-right: 10px !important;}
+
+/* RTL Stuff */
+body.rtl .floatleft {float: right;margin-right: 0;margin-left: 15px;}
+body.rtl .floatright {float: left;margin-left: 0;margin-right: 15px;}
+body.rtl .nomarginleft, body.rtl .nomarginleft .rt-block, body.rtl ul.nomarginleft {margin-right: 0;}
+body.rtl .nomarginright, body.rtl .nomarginright .rt-block, body.rtl ul.nomarginright {margin-left: 0;}
+body.rtl .nopaddingleft {padding-right: 0 !important;}
+body.rtl .nopaddingright {padding-left: 0 !important;}
+body.rtl .floatleftlast {float: right;margin-left: 0;}
+body.rtl .floatrightlast {float: left;margin-right: 0;}
+body.rtl .smallmarginleft {margin-right: 5px;}
+body.rtl .smallmarginright {margin-left: 5px;}
+body.rtl .medmarginleft {margin-right: 10px;}
+body.rtl .medmarginright {margin-left: 10px;}
+body.rtl .rt-demo-grid-2, body.rtl .rt-demo-grid-3, body.rtl .rt-demo-grid-4, body.rtl .rt-demo-grid-5, body.rtl .rt-demo-grid-6, body.rtl .rt-demo-grid-7 {float: right;}

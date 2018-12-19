@@ -1,0 +1,250 @@
+.pixeden  {
+    height: 63px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    display: block;
+
+}
+.pd-icon-monitor {
+    background: url(../assets/pd-icons/icon-monitor.html) no-repeat;
+    width: 68px;
+}
+.pd-icon-camera {
+    background: url(../assets/pd-icons/icon-camera.html) no-repeat;
+    width: 66px;
+}
+.pd-icon-check {
+    background: url(../assets/pd-icons/icon-check.html) no-repeat;
+    width: 62px;
+}
+
+.pd-icon-email-marketing {
+    background: url(../assets/pd-icons/icon-openmail.html) no-repeat;
+    width: 61px;
+}
+
+.pd-icon-worldmap {
+    background: url(../assets/pd-icons/icon-worldmap.html) no-repeat;
+    width: 61px;
+}
+
+.pd-icon-voicemail {
+    background: url(../assets/pd-icons/icon-voicemail.html) no-repeat;
+    width: 57px;
+}
+
+.pd-icon-wallet {
+    background: url(../assets/pd-icons/icon-wallet.html) no-repeat;
+    width: 67px;
+}
+
+.pd-icon-view {
+    background: url(../assets/pd-icons/icon-view.html) no-repeat;
+    width: 62px;
+}
+
+.pd-icon-user {
+    background: url(../assets/pd-icons/icon-user.html) no-repeat;
+    width: 62px;
+}
+
+.pd-icon-upload2 {
+    background: url(../assets/pd-icons/icon-upload2.html) no-repeat;
+    width: 57px;
+}
+
+.pd-icon-upload {
+    background: url(../assets/pd-icons/icon-upload.html) no-repeat;
+    width: 57px;
+}
+
+.pd-icon-truck {
+    background: url(../assets/pd-icons/icon-truck.html) no-repeat;
+    width: 63px;
+}
+
+.pd-icon-ticket {
+    background: url(../assets/pd-icons/icon-ticket.html) no-repeat;
+    width: 54px;
+}
+
+.pd-icon-tablet {
+    background: url(../assets/pd-icons/icon-tablet.html) no-repeat;
+    width: 61px;
+}
+
+.pd-icon-statistics {
+    background: url(../assets/pd-icons/icon-statistics.html) no-repeat;
+    width: 62px;
+}
+
+.pd-icon-shop {
+    background: url(../assets/pd-icons/icon-shop.html) no-repeat;
+    width: 68px;
+}
+
+.pd-icon-search {
+    background: url(../assets/pd-icons/icon-search.html) no-repeat;
+    width: 62px;
+}
+
+.pd-icon-ribbon {
+    background: url(../assets/pd-icons/icon-ribbon.html) no-repeat;
+    width: 48px;
+}
+
+.pd-icon-responsive {
+    background: url(../assets/pd-icons/icon-responsive.html) no-repeat;
+    width: 66px;
+}
+
+.pd-icon-print {
+    background: url(../assets/pd-icons/icon-print.html) no-repeat;
+    width: 62px;
+}
+
+.pd-icon-portfolio {
+    background: url(../assets/pd-icons/icon-portfolio.html) no-repeat;
+    width: 67px;
+}
+
+.pd-icon-photo {
+    background: url(../assets/pd-icons/icon-photo.html) no-repeat;
+    width: 69px;
+}
+
+.pd-icon-phone {
+    background: url(../assets/pd-icons/icon-phone.html) no-repeat;
+    width: 44px;
+}
+
+.pd-icon-notes {
+    background: url(../assets/pd-icons/icon-notes.html) no-repeat;
+    width: 63px;
+}
+
+.pd-icon-money {
+    background: url(../assets/pd-icons/icon-money.html) no-repeat;
+    width: 62px;
+}
+
+.pd-icon-media {
+    background: url(../assets/pd-icons/icon-media.html) no-repeat;
+    width: 62px;
+}
+
+.pd-icon-map {
+    background: url(../assets/pd-icons/icon-map.html) no-repeat;
+    width: 69px;
+}
+
+.pd-icon-lock {
+    background: url(../assets/pd-icons/icon-lock.html) no-repeat;
+    width: 53px;
+}
+
+.pd-icon-help {
+    background: url(../assets/pd-icons/icon-help.html) no-repeat;
+    width: 62px;
+}
+
+.pd-icon-heart {
+    background: url(../assets/pd-icons/icon-heart.html) no-repeat;
+    width: 66px;
+}
+
+.pd-icon-graph {
+    background: url(../assets/pd-icons/icon-graph.html) no-repeat;
+    width: 66px;
+}
+
+.pd-icon-folder {
+    background: url(../assets/pd-icons/icon-folder.html) no-repeat;
+    width: 70px;
+}
+
+.pd-icon-flag {
+    background: url(../assets/pd-icons/icon-flag.html) no-repeat;
+    width: 62px;
+}
+
+.pd-icon-film {
+    background: url(../assets/pd-icons/icon-film.html) no-repeat;
+    width: 52px;
+}
+
+.pd-icon-file {
+    background: url(../assets/pd-icons/icon-file.html) no-repeat;
+    width: 50px;
+}
+
+.pd-icon-drop {
+    background: url(../assets/pd-icons/icon-drop.html) no-repeat;
+    width: 48px;
+}
+
+.pd-icon-download {
+    background: url(../assets/pd-icons/icon-download.html) no-repeat;
+    width: 58px;
+}
+
+.pd-icon-disk {
+    background: url(../assets/pd-icons/icon-disk.html) no-repeat;
+    width: 62px;
+}
+
+.pd-icon-culture {
+    background: url(../assets/pd-icons/icon-culture.html) no-repeat;
+    width: 62px;
+}
+
+.pd-icon-console {
+    background: url(../assets/pd-icons/icon-console.html) no-repeat;
+    width: 57px;
+}
+
+.pd-icon-config {
+    background: url(../assets/pd-icons/icon-config.html) no-repeat;
+    width: 62px;
+}
+
+.pd-icon-compas {
+    background: url(../assets/pd-icons/icon-compas.html) no-repeat;
+    width: 57px;
+}
+
+.pd-icon-comments {
+    background: url(../assets/pd-icons/icon-comments.html) no-repeat;
+    width: 67px;
+}
+
+.pd-icon-clock {
+    background: url(../assets/pd-icons/icon-clock.html) no-repeat;
+    width: 61px;
+}
+
+.pd-icon-calendar {
+    background: url(../assets/pd-icons/icon-calendar.html) no-repeat;
+    width: 69px;
+}
+
+.pd-icon-book {
+    background: url(../assets/pd-icons/icon-book.html) no-repeat;
+    width: 55px;
+}
+
+.pd-icon-bag2 {
+    background: url(../assets/pd-icons/icon-bag2.html) no-repeat;
+    width: 67px;
+}
+
+.pd-icon-bag {
+    background: url(../assets/pd-icons/icon-bag.html) no-repeat;
+    width: 58px;
+}
+
+.pd-icon-arrows {
+    background: url(../assets/pd-icons/icon-arrows.html) no-repeat;
+    width: 61px;
+}

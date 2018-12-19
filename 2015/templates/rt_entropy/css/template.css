@@ -1,0 +1,235 @@
+/**
+ * @package   Entropy Template - RocketTheme
+ * @version   1.9 April 14, 2014
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2014 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Core */
+html, body {margin-bottom: 1px;height: 100%;}
+body {font-family: Helvetica,Arial,sans-serif;}
+a {font-weight: bold;}
+h1.title {margin-top: 0;}
+h5 {text-transform: uppercase;font-size: 100%;}
+.rt-container, #rt-sidebar-a, #rt-sidebar-b, #rt-sidebar-c {background: transparent;}
+.rt-container {position: relative;}
+.rt-block {margin: 10px 0;}
+ul {list-style-image: none;}
+ul.menu {padding-left: 0;}
+#rt-content-top, #rt-content-bottom {clear: both;overflow: visible;}
+#rt-debug {padding-top: 20px;position: relative;}
+#rt-page-surround {overflow: hidden;position: relative;min-height: 100%;}
+.module-title .title a {font-weight: normal;}
+
+/* Fonts */
+body.font-size-is-xlarge {font-size: 15px;line-height: 1.7em;}
+body.font-size-is-large {font-size: 14px;line-height: 1.7em;}
+body.font-size-is-default {font-size: 13px;line-height: 1.7em;}
+body.font-size-is-small {font-size: 12px;line-height: 1.7em;}
+body.font-size-is-xsmall {font-size: 11px;line-height: 1.7em;}
+@font-face {font-family: 'Lobster';src: url('../fonts/Lobster_1.3-webfont.eot');src: url('../fonts/Lobster_1.3-webfont86d7.eot?iefix') format('eot'),url('../fonts/Lobster_1.3-webfont.woff') format('woff'),url('../fonts/Lobster_1.3-webfont.ttf') format('truetype'),url('../fonts/Lobster_1.3-webfont.svg#webfont1MhCsZSr') format('svg');font-style: normal;}
+@font-face {font-family: 'League Gothic';src: url('../fonts/League_Gothic-webfont.eot');src: url('../fonts/League_Gothic-webfont86d7.eot?iefix') format('eot'),url('../fonts/League_Gothic-webfont.woff') format('woff'),url('../fonts/League_Gothic-webfont.ttf') format('truetype'),url('../fonts/League_Gothic-webfont.svg#webfontFHzvtkso') format('svg');font-style: normal;font-weight: normal;}
+@font-face {font-family: 'HoneyScript Light';src: url('../fonts/HoneyScript-Light-webfont.eot');src: url('../fonts/HoneyScript-Light-webfont86d7.eot?iefix') format('eot'),url('../fonts/HoneyScript-Light-webfont.woff') format('woff'),url('../fonts/HoneyScript-Light-webfont.ttf') format('truetype'),url('../fonts/HoneyScript-Light-webfont.svg#webfontv49jFtJZ') format('svg');font-style: normal;font-weight: normal;}
+.fancy-text {font-weight:normal;}
+
+/* Retro */
+.headerpanel-typography-retro .headline, .showcasepanel-typography-retro .headline, .featurepanel-typography-retro .headline, .mainbodypanel-typography-retro .headline, .mainbodypanel-typography-retro .rt-pagetitle, .mainbodypanel-typography-retro .componentheading, .bottompanel-typography-retro .headline, .footerpanel-typography-retro .headline, .headerpanel-typography-retro .menutop li > .item em, .headerpanel-typography-retro .readon span, .featurepanel-typography-retro .readon span, .showcasepanel-typography-retro .readon span, .mainbodypanel-typography-retro .readon span, .bottompanel-typography-retro .readon span, .footerpanel-typography-retro .readon span, .headerpanel-typography-retro .readon .button, .featurepanel-typography-retro .readon .button, .showcasepanel-typography-retro .readon .button, .mainbodypanel-typography-retro .readon .button, .bottompanel-typography-retro .readon .button, .footerpanel-typography-retro .readon .button, .headerpanel-typography-retro .fancy-text, .showcasepanel-typography-retro .fancy-text, .featurepanel-typography-retro .fancy-text, .mainbodypanel-typography-retro .fancy-text, .bottompanel-typography-retro .fancy-text, .footerpanel-typography-retro .fancy-text, .headerpanel-typography-retro .ft-row-top .featuretable-cell-data, .showcasepanel-typography-retro .ft-row-top .featuretable-cell-data, .featurepanel-typography-retro .ft-row-top .featuretable-cell-data, .mainbodypanel-typography-retro .ft-row-top .featuretable-cell-data, .bottompanel-typography-retro .ft-row-top .featuretable-cell-data, .footerpanel-typography-retro .ft-row-top .featuretable-cell-data {font-family: Lobster,Helvetica,Arial,sans-serif;font-weight: normal;}
+.headerpanel-typography-retro .menutop li > .item, .headerpanel-typography-retro .title, .showcasepanel-typography-retro .title, .featurepanel-typography-retro .title, .mainbodypanel-typography-retro .title, .bottompanel-typography-retro .title, .footerpanel-typography-retro .title, .retro ul li .item, .headerpanel-typography-retro .menutop ul li .item, .headerpanel-typography-retro .menutop ul li > .item em, .readonstyle-link .headerpanel-typography-retro .readon span, .readonstyle-link .headerpanel-typography-retro .readon .button, .readonstyle-link .showcasepanel-typography-retro .readon span, .readonstyle-link .showcasepanel-typography-retro .readon .button, .readonstyle-link .featurepanel-typography-retro .readon span, .readonstyle-link .featurepanel-typography-retro .readon .button, .readonstyle-link .mainbodypanel-typography-retro .readon span, .readonstyle-link .mainbodypanel-typography-retro .readon .button, .readonstyle-link .bottompanel-typography-retro .readon span, .readonstyle-link .bottompanel-typography-retro .readon .button, .readonstyle-link .footerpanel-typography-retro .readon span, .readonstyle-link .footerpanel-typography-retro .readon .button {font-family: Georgia, sans-serif;}
+.headerpanel-typography-retro .headline, .showcasepanel-typography-retro .headline, .featurepanel-typography-retro .headline, .mainbodypanel-typography-retro .headline, .bottompanel-typography-retro .headline, .footerpanel-typography-retro .headline {font-size: 700%;line-height: 100%;display: inline-block;position: relative;}
+.mainbodypanel-typography-retro .rt-pagetitle, .mainbodypanel-typography-retro .componentheading {font-size: 700%;line-height: 100%;display: block;position: relative;}
+.headerpanel-typography-retro .subline, .showcasepanel-typography-retro .subline, .featurepanel-typography-retro .subline, .mainbodypanel-typography-retro .subline, .bottompanel-typography-retro .subline, .footerpanel-typography-retro .subline {font-size: 19px;line-height: 19px;display: block;text-align: right;font-family: Helvetica;margin-top: -16px;}
+.headerpanel-typography-retro .menutop li > .item {letter-spacing: -0.1em;}
+.headerpanel-typography-retro .module-title .title, .showcasepanel-typography-retro .module-title .title, .featurepanel-typography-retro .module-title .title, .mainbodypanel-typography-retro .module-title .title, .bottompanel-typography-retro .module-title .title, .footerpanel-typography-retro .module-title .title {font-size: 190%;font-weight: normal;}
+
+/* Elegant */
+.headerpanel-typography-elegant .headline, .showcasepanel-typography-elegant .headline, .featurepanel-typography-elegant .headline, .mainbodypanel-typography-elegant .headline, .mainbodypanel-typography-elegant .rt-pagetitle, .mainbodypanel-typography-elegant .componentheading, .bottompanel-typography-elegant .headline, .footerpanel-typography-elegant .headline, .headerpanel-typography-elegant .readon span, .featurepanel-typography-elegant .readon span, .showcasepanel-typography-elegant .readon span, .mainbodypanel-typography-elegant .readon span, .bottompanel-typography-elegant .readon span, .footerpanel-typography-elegant .readon span, .headerpanel-typography-elegant .readon .button, .featurepanel-typography-elegant .readon .button, .showcasepanel-typography-elegant .readon .button, .mainbodypanel-typography-elegant .readon .button, .bottompanel-typography-elegant .readon .button, .footerpanel-typography-elegant .readon .button, .headerpanel-typography-elegant .title, .showcasepanel-typography-elegant .title, .featurepanel-typography-elegant .title, .mainbodypanel-typography-elegant .title, .bottompanel-typography-elegant .title, .footerpanel-typography-elegant .title, .headerpanel-typography-elegant .fancy-text, .showcasepanel-typography-elegant .fancy-text, .featurepanel-typography-elegant .fancy-text, .mainbodypanel-typography-elegant .fancy-text, .bottompanel-typography-elegant .fancy-text, .footerpanel-typography-elegant .fancy-text, .headerpanel-typography-elegant .ft-row-top .featuretable-cell-data, .showcasepanel-typography-elegant .ft-row-top .featuretable-cell-data, .featurepanel-typography-elegant .ft-row-top .featuretable-cell-data, .mainbodypanel-typography-elegant .ft-row-top .featuretable-cell-data, .bottompanel-typography-elegant .ft-row-top .featuretable-cell-data, .footerpanel-typography-elegant .ft-row-top .featuretable-cell-data {font-family: League Gothic,Helvetica,Arial,sans-serif;}
+.readonstyle-link .headerpanel-typography-elegant .readon span, .readonstyle-link .headerpanel-typography-elegant .readon .button, .readonstyle-link .showcasepanel-typography-elegant .readon span, .readonstyle-link .showcasepanel-typography-elegant .readon .button, .readonstyle-link .featurepanel-typography-elegant .readon span, .readonstyle-link .featurepanel-typography-elegant .readon .button, .readonstyle-link .mainbodypanel-typography-elegant .readon span, .readonstyle-link .mainbodypanel-typography-elegant .readon .button, .readonstyle-link .bottompanel-typography-elegant .readon span, .readonstyle-link .bottompanel-typography-elegant .readon .button, .readonstyle-link .footerpanel-typography-elegant .readon span, .readonstyle-link .footerpanel-typography-elegant .readon .button {font-family: Helvetica,Arial,sans-serif;}
+.headerpanel-typography-elegant .headline, .showcasepanel-typography-elegant .headline, .featurepanel-typography-elegant .headline, .mainbodypanel-typography-elegant .headline, .bottompanel-typography-elegant .headline, .footerpanel-typography-elegant .headline {font-size: 800%;line-height: 100%;text-transform: uppercase;display: inline-block;position: relative;}
+.mainbodypanel-typography-elegant .rt-pagetitle, .mainbodypanel-typography-elegant .componentheading {font-size: 800%;line-height: 100%;text-transform: uppercase;display: block;position: relative;}
+.headerpanel-typography-elegant .subline, .showcasepanel-typography-elegant .subline, .featurepanel-typography-elegant .subline, .mainbodypanel-typography-elegant .subline, .bottompanel-typography-elegant .subline, .footerpanel-typography-elegant .subline {font-family: HoneyScript Light,Helvetica,Arial,sans-serif;font-size: 36px;line-height: 36px;display: block;margin-top: -18px;text-transform: none;position: absolute;top: 0;left: 0;}
+.headerpanel-typography-elegant .module-title .title, .showcasepanel-typography-elegant .module-title .title, .featurepanel-typography-elegant .module-title .title, .mainbodypanel-typography-elegant .module-title .title, .bottompanel-typography-elegant .module-title .title, .footerpanel-typography-elegant .module-title .title {font-size: 220%;font-weight: normal;text-transform: uppercase;}
+
+/* Logo */
+#rt-logo {display: block;width: 166px;height: 53px;margin: 0;position: relative;z-index: 1000;}
+.logo-block {margin: 0;padding: 10px 15px;}
+.centered #rt-logo {margin: 0 auto;}
+
+/* Top Menu */
+.rt-menubar {display: inline-block;float: right;position: relative;margin: -15px 0;}
+
+/* Header Panel */
+#rt-header-panel {position: relative;}
+.fixedheader-1 #rt-top {position: fixed;top: 0;width: 100%;z-index: 1500;}
+#rt-header-panel-divider {height: 20px;position: absolute;width: 100%;bottom: -20px;z-index: 1500;}
+#rt-top .rt-block {margin: 0;}
+#rt-header {padding: 50px 0;}
+#headerpanel-title {padding: 0 25px;margin: 50px 0 -20px 0;}
+.headerpanel-alignment-left {text-align: left;}
+.headerpanel-alignment-center {text-align: center;}
+.headerpanel-alignment-right {text-align: right;}
+
+/* Showcase Panel */
+#rt-showcase-panel {position: relative;padding: 75px 0 50px 0;}
+#showcasepanel-title {padding: 0 25px;margin: 0 0 25px 0;}
+.showcasepanel-alignment-left {text-align: left;}
+.showcasepanel-alignment-center {text-align: center;}
+.showcasepanel-alignment-right {text-align: right;}
+
+/* Feature Panel */
+#rt-feature-panel {position: relative;}
+#rt-feature-panel-accent {padding: 60px 0 90px 0;}
+#rt-feature-panel-accent.featurepanel-divider-divider1, #rt-feature-panel-accent.featurepanel-divider-divider2 {padding: 90px 0;}
+.cssstyle-style5 #rt-feature-panel-accent {padding: 60px 0 50px 0;}
+#rt-feature-panel-divider {height: 19px;margin-top: -19px;position: relative;}
+.cssstyle-style5 #rt-feature-panel-divider.featurepanel-divider-divider1, .cssstyle-style6 #rt-feature-panel-divider.featurepanel-divider-divider1 {height: 36px;margin-top: -20px;position: relative;}
+#featurepanel-title {padding: 0 25px;margin: 0 0 25px 0;}
+.featurepanel-alignment-left {text-align: left;}
+.featurepanel-alignment-center {text-align: center;}
+.featurepanel-alignment-right {text-align: right;}
+
+/* Mainbody Panel */
+#rt-mainbody-panel {position: relative;padding: 20px 0 50px 0;}
+.mainbodypanel-divider-divider1 {height: 85px;margin-top: -85px;position: relative;}
+.cssstyle-style5 .mainbodypanel-divider-divider1, .cssstyle-style6 .mainbodypanel-divider-divider1 {height: 42px;margin-top: -21px;position: relative;}
+.mainbodypanel-divider-divider2 {height: 12px;margin-top: -12px;position: relative;}
+#mainbodypanel-title {padding: 35px 25px 0 25px;margin: 0 0 25px 0;}
+.mainbodypanel-alignment-left {text-align: left;}
+.mainbodypanel-alignment-center {text-align: center;}
+.mainbodypanel-alignment-right {text-align: right;}
+#rt-main {margin-top: 10px;}
+
+/* Bottom Panel */
+#rt-bottom-panel {position: relative;padding: 75px 0 50px 0;}
+#rt-bottom-panel-divider {height: 20px;margin-top: -20px;position: relative;}
+#bottompanel-title {padding: 0 25px;margin: 0 0 25px 0;}
+.bottompanel-alignment-left {text-align: left;}
+.bottompanel-alignment-center {text-align: center;}
+.bottompanel-alignment-right {text-align: right;}
+#rt-bottom {position: relative;}
+
+/* Footer Panel */
+#rt-footer-panel {position: relative;padding-top: 65px;}
+#rt-footer-panel-divider {height: 19px;margin-top: -19px;position: relative;}
+.cssstyle-style5 #rt-footer-panel-divider.footerpanel-divider-divider1, .cssstyle-style6 #rt-footer-panel-divider.footerpanel-divider-divider1 {height: 37px;margin-top: -18px;}
+#footerpanel-title {padding: 0 25px;margin: 0 0 25px 0;}
+.footerpanel-alignment-left {text-align: left;}
+.footerpanel-alignment-center {text-align: center;}
+.footerpanel-alignment-right {text-align: right;}
+
+/* Modules */
+.rt-block {position: relative;}
+.module-title {margin-bottom: 15px;}
+.module-title .title {margin: 0;padding: 0;font-size: 150%;letter-spacing: normal;}
+.module-title .title span {font-weight: normal;}
+
+/* Module Variations */
+.box1 .rt-block, .box2 .rt-block, .box3 .rt-block, .box4 .rt-block, .box5 .rt-block, .box6 .rt-block, .box7 .rt-block, .box8 .rt-block, .box9 .rt-block, .box10 .rt-block, .box11 .rt-block, .box12 .rt-block {border-radius: 8px;}
+
+/* Module Standard Variations */
+.standardcase .module-title .title {text-transform: inherit;}
+.lowercase .module-title .title {text-transform: lowercase;}
+.uppercase .module-title .title {text-transform: uppercase;}
+.flush .rt-block {padding: 0;}
+.flushtop .rt-block {padding-top: 0;}
+.flushbottom .rt-block {padding-bottom: 0;}
+#rt-popup, #rt-popuplogin {display: none;}
+
+/* Side Menus */
+.module-content .rt-menubar {display: block;margin: 0;float: none;position: relative;height: auto;background: none;border: 0;}
+.module-content ul.menu {margin-left: 0;}
+.module-content ul.menu li {list-style: none;padding: 0;margin: 0 -10px;}
+.rt-block .module-content ul.menu li li {background: none;padding: 0;border: none !important;}
+.module-content ul.menu li a, .module-content ul.menu li .separator, .module-content ul.menu li .item {padding: 0;display: block;}
+.module-content ul.menu li a span, .module-content ul.menu li .separator span, .module-content ul.menu li .item span {padding: 10px 10px 12px 10px;font-size: 18px;line-height: 18px;display: block;font-weight: bold;}
+.module-content ul.menu li li a, .module-content ul.menu li li .separator, .module-content ul.menu li li .item  {border: none !important;background: none !important;}
+.module-content ul.menu li li a span, .module-content ul.menu li li .separator span, .module-content ul.menu li li .item span {font-size: 14px;padding: 5px 10px;}
+.module-content ul.menu li .separator span {display: block;}
+.module-content ul.menu ul {padding: 10px 0 10px 30px;margin: 0;}
+.module-content ul.menu .subtext em {line-height: 12px;padding-left: 0;}
+.module-content ul.menu em {display: block;font-size: 80%;font-style: normal;font-weight: normal;}
+.module-content ul.menu .image img {float: left;}
+.module-content ul.menu .item.image {background: none;padding-left: 8px;}
+
+/* Retro Buttons */
+.headerpanel-typography-retro .readon, .showcasepanel-typography-retro .readon, .bottompanel-typography-retro .readon, .footerpanel-typography-retro .readon {display: inline-block;height: 50px;margin: 0 0 0 21px;background-color: transparent;border: 0;padding: 0;overflow: visible;background-position: 100% 0;background-repeat: no-repeat;}
+.headerpanel-typography-retro .readon span, .showcasepanel-typography-retro .readon span, .bottompanel-typography-retro .readon span, .footerpanel-typography-retro .readon span, .headerpanel-typography-retro .readon .button, .showcasepanel-typography-retro .readon .button, .bottompanel-typography-retro .readon .button, .footerpanel-typography-retro .readon .button {display: block;margin: 0 0 0 -21px;padding: 0 30px;border: 0;cursor: pointer;height: 50px;line-height: 47px;font-size: 20px;overflow: visible;font-weight: bold;position: relative;white-space: nowrap;text-transform: none;background-position: 0 0;background-repeat: no-repeat;background-color: transparent;}
+.headerpanel-typography-retro .readon:hover, .showcasepanel-typography-retro .readon:hover, .bottompanel-typography-retro .readon:hover, .footerpanel-typography-retro .readon:hover {background-position: 100% -59px;}
+.headerpanel-typography-retro .readon:hover span, .showcasepanel-typography-retro .readon:hover span, .bottompanel-typography-retro .readon:hover span, .footerpanel-typography-retro .readon:hover span {background-position: 0 -59px;line-height: 50px;}
+.headerpanel-typography-retro .readon:hover .button, .showcasepanel-typography-retro .readon:hover .button, .bottompanel-typography-retro .readon:hover .button, .footerpanel-typography-retro .readon:hover .button {background-position: 0 -59px;}
+.featurepanel-typography-retro .readon, .mainbodypanel-typography-retro .readon {display: inline-block;border-radius: 25px;}
+.featurepanel-typography-retro .readon span, .mainbodypanel-typography-retro .readon span, .featurepanel-typography-retro .readon .button, .mainbodypanel-typography-retro .readon .button {font-size: 18px;display: block;line-height: 18px;padding: 6px 15px 4px 15px;font-weight: normal;text-shadow: none;}
+.featurepanel-typography-retro .readon .button, .mainbodypanel-typography-retro .readon .button {cursor: pointer;overflow: visible;position: relative;white-space: nowrap;background-color: transparent;border: 0;padding: 4px 15px 2px 15px;}
+button.readon {border: 0 !important;}
+.readonstyle-button .readon span span {display: inline;background: none;margin-left: 0;padding: 0;float: none;}
+
+/* Elegant Buttons */
+.headerpanel-typography-elegant .readon, .showcasepanel-typography-elegant .readon, .featurepanel-typography-elegant .readon, .mainbodypanel-typography-elegant .readon, .bottompanel-typography-elegant .readon, .footerpanel-typography-elegant .readon {display: inline-block;height: 32px;margin: 0;background-color: transparent;padding: 5px;overflow: visible;border-radius: 6px;}
+.headerpanel-typography-elegant .readon span, .showcasepanel-typography-elegant .readon span, .featurepanel-typography-elegant .readon span, .mainbodypanel-typography-elegant .readon span, .bottompanel-typography-elegant .readon span, .footerpanel-typography-elegant .readon span, .headerpanel-typography-elegant .readon .button, .showcasepanel-typography-elegant .readon .button, .featurepanel-typography-elegant .readon .button, .mainbodypanel-typography-elegant .readon .button, .bottompanel-typography-elegant .readon .button, .footerpanel-typography-elegant .readon .button {display: block;margin: 0;padding: 0 15px;border: 0;cursor: pointer;height: 32px;line-height: 32px;font-size: 22px;overflow: visible;font-weight: normal;position: relative;white-space: nowrap;text-transform: uppercase;background-color: transparent;border-radius: 4px;}
+
+/* Typography */
+.readonstyle-link .readon {background: none !important;border: none !important;padding: 0 !important;margin: 0 !important;height: auto !important;}
+.readonstyle-link .readon .button, .readonstyle-link .readon span {background: none !important;border: none !important;font-size: 12px !important;outline: none !important;padding: 0 !important;margin: 0 !important;line-height: 130% !important;font-weight: bold !important;text-transform: uppercase;height: auto !important;}
+.rokchecks, .rokradios {padding: 2px 0 2px 20px;line-height: 130%;cursor: pointer;}
+.rokradios {background-position: 0 2px;background-repeat: no-repeat;}
+.rokradios-active {background-position: 0 -123px;background-repeat: no-repeat;}
+.rokchecks {background-position: 0 -255px;background-repeat: no-repeat;}
+.rokchecks-active {background-position: 0 -394px;background-repeat: no-repeat;}
+.inputbox, #form-login .inputbox, .component-content .login .inputbox, #josForm .inputbox, .component-content .search_result .inputbox, .component-content .contact .inputbox, .component-content .user input#email, .component-content .user input#name, .component-content .user input#username, .component-content .user input#password, .component-content .user input#passwd, .component-content .user input#password2 {position: relative;z-index: 100;border-radius: 8px;}
+.readonstyle-button .headerpanel-typography-elegant .readon, .readonstyle-button .featurepanel-typography-elegant .readon, .readonstyle-button .bottompanel-typography-elegant .readon {box-shadow: inset 0 0 3px rgba(0,0,0,0.3);}
+.readonstyle-button .showcasepanel-typography-elegant .readon, .readonstyle-button .footerpanel-typography-elegant .readon {box-shadow: inset 0 0 3px rgba(0,0,0,0.9);}
+.cssstyle-style5.readonstyle-button .showcasepanel-typography-elegant .readon, .cssstyle-style6.readonstyle-button .showcasepanel-typography-elegant .readon {box-shadow: inset 0 0 3px rgba(0,0,0,0.5);}
+.readonstyle-button .mainbodypanel-typography-elegant .readon {box-shadow: inset 0 0 3px rgba(0,0,0,0.2);}
+
+/* Branding */
+#rocket {display: block;width: 129px;height: 18px;vertical-align: middle;margin: 0 auto;}
+
+/* To Top */
+.back-to-top {position: absolute;right: 25px;top: 0;text-transform: uppercase;font-size: 15px;line-height: 15px;display: inline-block;z-index: 10;}
+.back-to-top span {display: inline-block;width: 14px;height: 10px;margin-left: 5px;background-position: 50% 0;background-repeat: no-repeat;}
+.back-to-top:hover span {background-position: 50% -19px;background-repeat: no-repeat;}
+
+/* Copyright */
+.copytext {padding: 10px 0;display: block;text-align: center;}
+
+/* Date Feature */
+.rt-date-feature span {font-size: 130%;}
+
+/* Breadcrumbs */
+#rt-breadcrumbs {padding: 2px 15px;margin: 0 10px;}
+#breadcrumbs-home {width: 17px;height: 17px;display: block;float: left;background-position: 0 -48px;margin-top: 1px;}
+#breadcrumbs-home:hover {background-position: -21px -48px;}
+#breadcrumbs h3, .leading_separator {display: none;}
+.rt-breadcrumb-surround {position: relative;overflow: hidden;padding: 0;display: inline-block;height: auto;}
+span.breadcrumbs, #rt-breadcrumbs .breadcrumbs {display: inline-block;font-size: 120%;overflow: hidden;}
+span.breadcrumbs img {width: 26px;height: 17px;float: left;background-position: 0 -1611px;background-repeat: no-repeat;}
+span.breadcrumbs a, span.no-link, span.showHere, .pathway {padding: 0 8px;float: left;display: block;line-height: 21px;}
+#rt-breadcrumbs .breadcrumbs img {height: 0;width: 26px;padding-top: 17px;float: left;background-position: 0 -1611px;background-repeat: no-repeat;}
+.breadcrumbs .separator-item {float: left;display: inline-block;margin-top: 1px;}
+
+/* Popup Module Feature */
+#rt-popup .module-content, #rt-popuplogin .module-content {margin: 0;}
+#rt-popup .rt-block, #rt-popuplogin .rt-block {margin: 0;padding: 0;}
+#rt-popup .title, #rt-popuplogin .title {padding: 0;margin-bottom: 15px;margin-top: 0;}
+#rt-popuplogin {color: black;}
+#rt-popuplogin input#modlgn-username, #rt-popuplogin input#modlgn-passwd {border: 1px solid #BFBFBF !important;}
+#rt-popuplogin .rokchecks {background-image: none; padding: 0;}
+#rt-popuplogin input#modlgn-remember {left: 0px !important; width: auto !important; position: relative !important; background:none;border:none;}
+#rt-popuplogin input.button { width: 119px; }
+body .rokbox-wrapper .rokbox-outer .rokbox-row .rokbox-inner .rokbox-container {min-height: 70px;}
+
+/* Custom Content */
+img.feature-img {width: 212px;height: 150px;padding: 5px;}
+.feature-img-surround {width: 222px;height: 178px;}
+.image-block-surround {width: 160px;height: 150px;float: left;margin-right: 15px;}
+img.image-block {width: 150px;height: 122px;padding: 5px;position: relative;}
+.content-block {overflow: hidden;}
+.number-image {display: inline-block;float: left;margin-right: 15px;margin-bottom: 15px;padding: 5px;position: relative;}
+.number-image-text {display: block;text-transform: uppercase;font-weight: bold;font-size: 20px;padding-top: 10px;margin: 0 0 -8px -5px;}
+.heading1 {font-size: 160%;display: block;margin-bottom: 15px;}
+
+/* iPhone */
+body #gantry-viewswitcher {z-index: 100;right:50%;position:relative;top:inherit;right:inherit;margin: 1em auto;}
+
+/* Extras */
+.even, .odd {background: inherit;border-bottom: inherit;}
