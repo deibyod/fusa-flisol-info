@@ -4,16 +4,16 @@
 	<title type="text">FLISoL Fusagasugá - Inicio</title>
 	<subtitle type="text">Festival Latinoamericano de Instalación de Software Libre - Nodo Fusagasugá</subtitle>
 	<link rel="alternate" type="text/html" href="http://fusa.flisol.info"/>
-	<id>http://fusa.flisol.info/2015/index.php</id>
+	<id>http://fusa.flisol.info/2015/site</id>
 	<updated>2018-12-19T00:40:40+00:00</updated>
 	<generator uri="http://joomla.org" version="2.5">Joomla! - Open Source Content Management</generator>
-	<link rel="self" type="application/atom+xml" href="http://fusa.flisol.info/2015/index.php?format=feed&amp;type=atom"/>
+	<link rel="self" type="application/atom+xml" href="http://fusa.flisol.info/2015/site?format=feed&amp;type=atom"/>
 	<entry>
 		<title>¿Cuándo y dónde?</title>
-		<link rel="alternate" type="text/html" href="http://fusa.flisol.info/2015/index.php/participar/cuando-y-donde"/>
+		<link rel="alternate" type="text/html" href="http://fusa.flisol.info/2015/site/participar/cuando-y-donde"/>
 		<published>2014-03-14T03:17:07+00:00</published>
 		<updated>2014-03-14T03:17:07+00:00</updated>
-		<id>http://fusa.flisol.info/2015/index.php/participar/cuando-y-donde</id>
+		<id>http://fusa.flisol.info/2015/site/participar/cuando-y-donde</id>
 		<author>
 			<name>Deiby Od</name>
 			<email>deibyod&commat; gmail . com</email>
@@ -37,10 +37,10 @@
 	</entry>
 	<entry>
 		<title>¿Qué es?</title>
-		<link rel="alternate" type="text/html" href="http://fusa.flisol.info/2015/index.php/info/que-es"/>
+		<link rel="alternate" type="text/html" href="http://fusa.flisol.info/2015/site/info/que-es"/>
 		<published>2014-03-14T03:17:49+00:00</published>
 		<updated>2014-03-14T03:17:49+00:00</updated>
-		<id>http://fusa.flisol.info/2015/index.php/info/que-es</id>
+		<id>http://fusa.flisol.info/2015/site/info/que-es</id>
 		<author>
 			<name>Deiby Od</name>
 			<email>deibyod&commat; gmail . com</email>
@@ -76,10 +76,10 @@
 	</entry>
 	<entry>
 		<title>¿Qué habrá?</title>
-		<link rel="alternate" type="text/html" href="http://fusa.flisol.info/2015/index.php/cronograma/que-habra"/>
+		<link rel="alternate" type="text/html" href="http://fusa.flisol.info/2015/site/cronograma/que-habra"/>
 		<published>2014-03-14T03:18:27+00:00</published>
 		<updated>2014-03-14T03:18:27+00:00</updated>
-		<id>http://fusa.flisol.info/2015/index.php/cronograma/que-habra</id>
+		<id>http://fusa.flisol.info/2015/site/cronograma/que-habra</id>
 		<author>
 			<name>Deiby Od</name>
 			<email>deibyod&commat; gmail . com</email>
@@ -879,10 +879,10 @@
 	</entry>
 	<entry>
 		<title>¿Como participo?</title>
-		<link rel="alternate" type="text/html" href="http://fusa.flisol.info/2015/index.php/participar/como-participo"/>
+		<link rel="alternate" type="text/html" href="http://fusa.flisol.info/2015/site/participar/como-participo"/>
 		<published>2014-03-14T03:20:21+00:00</published>
 		<updated>2014-03-14T03:20:21+00:00</updated>
-		<id>http://fusa.flisol.info/2015/index.php/participar/como-participo</id>
+		<id>http://fusa.flisol.info/2015/site/participar/como-participo</id>
 		<author>
 			<name>Deiby Od</name>
 			<email>deibyod&commat; gmail . com</email>
@@ -904,10 +904,10 @@
 	</entry>
 	<entry>
 		<title>¿Quienes lo hacen?</title>
-		<link rel="alternate" type="text/html" href="http://fusa.flisol.info/2015/index.php/info/quienes-lo-hacen"/>
+		<link rel="alternate" type="text/html" href="http://fusa.flisol.info/2015/site/info/quienes-lo-hacen"/>
 		<published>2014-03-14T03:21:00+00:00</published>
 		<updated>2014-03-14T03:21:00+00:00</updated>
-		<id>http://fusa.flisol.info/2015/index.php/info/quienes-lo-hacen</id>
+		<id>http://fusa.flisol.info/2015/site/info/quienes-lo-hacen</id>
 		<author>
 			<name>Deiby Od</name>
 			<email>deibyod&commat; gmail . com</email>

@@ -4,15 +4,15 @@
 	<channel>
 		<title>FLISoL Fusagasugá - Inicio</title>
 		<description><![CDATA[Festival Latinoamericano de Instalación de Software Libre - Nodo Fusagasugá]]></description>
-		<link>http://fusa.flisol.info/2015/index.php/component/content/?view=featured</link>
+		<link>http://fusa.flisol.info/2015/site/component/content/?view=featured</link>
 		<lastBuildDate>Wed, 19 Dec 2018 00:40:40 +0000</lastBuildDate>
 		<generator>Joomla! - Open Source Content Management</generator>
-		<atom:link rel="self" type="application/rss+xml" href="http://fusa.flisol.info/2015/index.php?format=feed&amp;type=rss"/>
+		<atom:link rel="self" type="application/rss+xml" href="http://fusa.flisol.info/2015/site?format=feed&amp;type=rss"/>
 		<language>es-es</language>
 		<item>
 			<title>¿Cuándo y dónde?</title>
-			<link>http://fusa.flisol.info/2015/index.php/participar/cuando-y-donde</link>
-			<guid isPermaLink="true">http://fusa.flisol.info/2015/index.php/participar/cuando-y-donde</guid>
+			<link>http://fusa.flisol.info/2015/site/participar/cuando-y-donde</link>
+			<guid isPermaLink="true">http://fusa.flisol.info/2015/site/participar/cuando-y-donde</guid>
 			<description><![CDATA[<div class="feed-description"><h3 id="Fusagasug.2BAOE.2C_Cundinamarca">Fusagasugá, Cundinamarca</h3>
 <p> </p>
 <p class="line867"><strong> <img src="http://flisol.info/moin_static194/sol/img/checkmark.png" border="0" alt="(./)" title="(./)" width="16" height="16" /> Lugar:</strong> Institución Educativa Municipal Teodoro Aya Villaveces. Carrera 7 con Calle 16. <span id="line-14" class="anchor"></span><span id="line-15" class="anchor"></span></p>
@@ -27,8 +27,8 @@
 		</item>
 		<item>
 			<title>¿Qué es?</title>
-			<link>http://fusa.flisol.info/2015/index.php/info/que-es</link>
-			<guid isPermaLink="true">http://fusa.flisol.info/2015/index.php/info/que-es</guid>
+			<link>http://fusa.flisol.info/2015/site/info/que-es</link>
+			<guid isPermaLink="true">http://fusa.flisol.info/2015/site/info/que-es</guid>
 			<description><![CDATA[<div class="feed-description"><h2 id="Presentaci.2BAPM-n">Presentación</h2>
 <p> </p>
 <p class="line862">Este año se realiza <strong>por tercera vez en Fusagasugá</strong> uno de los <strong>eventos tecnológicos más importantes de Latinoamerica</strong> y ahora del mundo: <strong>el FLISoL</strong>. <span id="line-34" class="anchor"></span>Continuaremos construyendo una ciudad con <strong>oportunidades</strong> para acceder al <strong>conocimiento</strong>, a la <strong>tecnología</strong>, conservando al máximo tu <strong>derecho a la libertad y la privacidad</strong>. <span id="line-35" class="anchor"></span><span id="line-36" class="anchor"></span></p>
@@ -49,8 +49,8 @@
 		</item>
 		<item>
 			<title>¿Qué habrá?</title>
-			<link>http://fusa.flisol.info/2015/index.php/cronograma/que-habra</link>
-			<guid isPermaLink="true">http://fusa.flisol.info/2015/index.php/cronograma/que-habra</guid>
+			<link>http://fusa.flisol.info/2015/site/cronograma/que-habra</link>
+			<guid isPermaLink="true">http://fusa.flisol.info/2015/site/cronograma/que-habra</guid>
 			<description><![CDATA[<div class="feed-description"><h2 id="Actividades">Actividades</h2>
 <h3 id="Plazoleta_Stallman">Plazoleta Stallman</h3>
 <p><span id="line-56" class="anchor"></span></p>
@@ -453,8 +453,8 @@
 		</item>
 		<item>
 			<title>¿Como participo?</title>
-			<link>http://fusa.flisol.info/2015/index.php/participar/como-participo</link>
-			<guid isPermaLink="true">http://fusa.flisol.info/2015/index.php/participar/como-participo</guid>
+			<link>http://fusa.flisol.info/2015/site/participar/como-participo</link>
+			<guid isPermaLink="true">http://fusa.flisol.info/2015/site/participar/como-participo</guid>
 			<description><![CDATA[<div class="feed-description"><h3 id="A.2BAL8-Asistir.2BAOE-s_al_evento.3F">¿Asistirás al evento?</h3>
 <p> </p>
 <p class="line862">Por favor regístrate en el siguiente enlace: <a class="https" href="https://docs.google.com/forms/d/10EK0h0h2rDkRzQye3UT52owyf0XS01goypznFR8hYm8/viewform?usp=send_form">Formulario de inscripción de asistentes</a> <img src="http://flisol.info/moin_static194/sol/img/checkmark.png" border="0" alt="(./)" title="(./)" width="16" height="16" /> <span id="line-86" class="anchor"></span><span id="line-87" class="anchor"></span></p>
@@ -468,8 +468,8 @@
 		</item>
 		<item>
 			<title>¿Quienes lo hacen?</title>
-			<link>http://fusa.flisol.info/2015/index.php/info/quienes-lo-hacen</link>
-			<guid isPermaLink="true">http://fusa.flisol.info/2015/index.php/info/quienes-lo-hacen</guid>
+			<link>http://fusa.flisol.info/2015/site/info/quienes-lo-hacen</link>
+			<guid isPermaLink="true">http://fusa.flisol.info/2015/site/info/quienes-lo-hacen</guid>
 			<description><![CDATA[<div class="feed-description"><p class="line862" style="text-align: center;"><a class="https" href="https://www.facebook.com/groups/comunidadlinuxfusa/"><img class="external_image" src="http://www.tecnologiasod.com/flisol/images/logos/CULF.png" border="0" alt="https://www.facebook.com/groups/comunidadlinuxfusa/" title="https://www.facebook.com/groups/comunidadlinuxfusa/" style="width: 70%;" /></a> <br /> <strong>Comunidad de Cultura Libre de Fusagasugá - CULF</strong></p>
 <h3 id="Comit.2BAOk_Organizador">Comité Organizador</h3>
 <p> </p>
