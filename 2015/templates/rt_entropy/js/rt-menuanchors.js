@@ -87,7 +87,7 @@
 					}
 				}
 					
-				if (itemHref[0] == locaHref[0] || itemHref[0] == locaHref[0]+'index.php' || itemHref[0]+'index.php' == locaHref[0]) e.stop();
+				if (itemHref[0] == locaHref[0] || itemHref[0] == locaHref[0]+'site' || itemHref[0]+'site' == locaHref[0]) e.stop();
 				else return;
 				
 				if (el) MenuAnchors.scroller.start(0, el.getPosition().y - height);
